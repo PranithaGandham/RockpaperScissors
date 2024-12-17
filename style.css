@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    font-family: 'Nunito',sans-serif;
+    align-items: center;
+    background-image: url('videoblocks-animation-flight-over-the-grid-sci-fi_hhgny1ze4_thumbnail-1080_01.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
+
+h2{
+    margin: 1%;
+    text-align: center;
+}
+.main{
+    display: flex;
+    margin: 2% 42%;
+    gap: 5px;
+}
+.button{
+    width: 80px;
+    height: 80px;
+    font-size: xx-large;
+    border-radius: 8px;
+    border: white;
+    cursor: pointer;
+}
+table{
+    margin-top: 2%;
+    margin-bottom: 2%;
+    margin-left: auto;
+    margin-right: auto;
+    border-spacing: 10px;
+}
+.computer{
+    text-align: center;
+}
+.message{
+    text-align: center;
+
+}
+.reset{
+    margin:1% 45.5%;
+    width: 130px;
+    height: 40px;
+    font-size: large;
+    font-family: 'Nunito',sans-serif;
+    border-radius: 8px;
+    border: white;
+    cursor: pointer;
+    font-weight: 500;
+    
+}
+.neon-text {
+    font-size: 30px;
+    color: #2bf5ea; /* Neon blue color */
+    text-align: center;
+    text-shadow: 0 0 10px #2bf5ea,
+                 0 0 20px #2bf5ea,
+                 0 0 30px #2bf5ea,
+                 0 0 40px #0ff,
+                 0 0 70px #0ff,
+                 0 0 80px #0ff,
+                 0 0 100px #0ff,
+                 0 0 150px #0ff;
+    animation: flicker 1.5s infinite alternate;
+  }
+
+  @keyframes flicker {
+    0% {
+      opacity: 0.8;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+.reset:hover{
+    background-color: #10e8dd;
+    color: white;
+    font-weight: 800;
+
+
+}
